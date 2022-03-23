@@ -19,7 +19,7 @@ contract MyEpicNFT is ERC721URIStorage {
   string[] secondWords = ["Booger Hollow", "Yellowsnow", "Bucket of Blood", "Farfrompoopen", "Drury", "Slaughter Neck"];
   string[] thirdWords = ["Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller", "Davis" ];
 
-  constructor() ERC721 ("SquareNFT", "SQUARE") {
+  constructor() ERC721 ("NowiNFT", "SQUARE") {
     console.log("This is my NFT contract. Woah!");
   }
 
